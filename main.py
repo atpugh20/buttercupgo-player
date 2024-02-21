@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import *
 from selenium.webdriver.common.by import By
 
-service = Service("./msedgedriver.exe")
-driver = webdriver.Edge(service=service)
+service = Service("msedgedriver.exe")
+driver = webdriver.Firefox()
 driver.get("https://buttercup.rocks/")
 
 
